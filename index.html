@@ -6,20 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Discord Presence</title>
+    <script src="update.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <div class="title">GAME</div>
-        <select name="games" id="games" class="dropdown">
-            <!-- <option value="bd">Pokémon Brilliant Diamond</option>
-            <option value="sp">Pokémon Shining Pearl</option> -->
-        </select>
         <div class="title">CONSOLE</div>
-        <select name="consoles" id="consoles" class="dropdown">
-            <!-- <option value="switch">Nintendo Switch</option> -->
-        </select>
+        <select name="consoles" id="consoles" class="dropdown"></select>
+
+        <div class="title">GAME</div>
+        <select name="games" id="games" class="dropdown"></select>
+
         <button id="update">Update Discord Activity</button>
-        <script src="update.js"></script>
     </div>
 </body>
 </html>

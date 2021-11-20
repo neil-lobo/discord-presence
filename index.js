@@ -40,7 +40,7 @@ express.post("/update", (req, res) => {
         startTimestamp: Date.now(),
     }
 
-    rpc.setActivity(state);
+    rpc.setActivity(state, process.pid);
     res.status(201).send();
 })
 
